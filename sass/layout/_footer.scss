@@ -12,9 +12,10 @@
     line-height: 1.192;
     letter-spacing: 0.03em;
     color: white;
-}
-.navigation-logo2>span {
-    color:var(--main-color);
+
+    &>span {
+        color:var(--main-color);
+    }
 }
 
 .address{
@@ -23,24 +24,22 @@
     line-height: 1.714;
     letter-spacing: 0.03em;
     margin-top:20px;
-
     color: #FFffff;
 }
-.info-list-item{
 
+.info-list-item{
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
-
     color: rgba(255, 255, 255, 0.6);
 }
+
 .join-us{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.142;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-
     color: #FFFFFF;
 }
 .join{
