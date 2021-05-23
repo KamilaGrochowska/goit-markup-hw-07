@@ -1,0 +1,26 @@
+.img-list-item{
+    display: inline-block;
+    margin-bottom: 94px;
+    position: relative;
+}
+.img-list-item:not(:last-child){
+    margin-right: 30px;
+}
+/* .img-block{
+    margin-left: 215px;
+} */
+  .img-list-item > .label {
+    position: absolute;
+    width: 370px;
+    bottom: 0;
+    margin: 0;
+    padding: 27px 90px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: rgba(47, 48, 58, 0.8);
+  }
