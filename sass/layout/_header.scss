@@ -17,7 +17,7 @@
 
 .navigation-list-item{
     padding-top: 32px;
-    
+
     &:not(:last-child){
         margin-right:46px;
     }
@@ -38,7 +38,6 @@
    }
 }
 
-
 .navigation-list-link {
     font-weight: 500;
     font-size: 14px;
@@ -47,10 +46,13 @@
     transition: color 250ms linear;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     color:var(--secondary-color);
-}
-/* .navigation-list-link2{
+
+    &:hover,
+    &:focus{
     color:var(--main-color);
-} */
+    }
+}
+
 .line::after {
     content: "";
     display: flex;
@@ -90,17 +92,10 @@ a:hover{
 .mobile-icon{
     fill:#757575;
     margin-right: 10px;
-}
 
-.mail-icon:hover,
-.mail-icon:focus,
-.mobile-icon:hover,
-.mobile-icon:focus{
-    color: var(--main-color);
-    fill: var(--main-color);
-}
-
-.navigation-list-link:hover,
-.navigation-list-link:focus{
-    color:var(--main-color);
+    &:focus,
+    &:hover{
+        color: var(--main-color);
+        fill: var(--main-color);
+    }
 }
