@@ -1,5 +1,11 @@
 .container{
     width: 1200px;
-    padding: 0 200px;
-    box-sizing: content-box;  
+    padding: 0 15px;
+    align-items: center;
+    margin: 0 auto; 
+
+    .header &{
+        display: flex;  
+        justify-content: flex-start;
+    }
 }
