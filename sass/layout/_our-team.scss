@@ -1,43 +1,33 @@
-.img2{
+.team{
     width: 1600px;
     padding-top:94px;
     padding-bottom:94px;
     background-color: #F5F4FA;
 }
-.img-person-list{
+.team__item{
     display: inline-block; 
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-
-    &:not(:last-child){
-    margin-right: 30px;   
-    }
+    margin-right: 25px;   
+}
+.team__item--last{
+    display: inline-block; 
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    margin-right: 0;
 }
 
-.img-person-item{
+.team__img{
     margin-bottom: 30px;
     transition: color 250ms linear;
     margin: none;
     padding: none;
 }
-.img-person-item-pic{
+.team__name{
     margin-bottom: 10px;
     font-weight: 500;
-}
-
-.img-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.667;
-    text-align: center;
-    letter-spacing: 0.03em;
-    padding-bottom: 50px;
-    color: var(--secondary-color);
-}
-
-.img-person-item-pic,
-.img-person-item-position {
     font-size: 16px;
     line-height: 1.188;
     letter-spacing: 0.03em;
@@ -45,7 +35,12 @@
     color: var(--secondary-color);
 }
 
-.img-person-item-position {
+.team__position{
     font-weight: 400;
     color: #757575;
+    font-size: 16px;
+    line-height: 1.188;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--secondary-color);
 }
