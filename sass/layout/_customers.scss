@@ -1,11 +1,19 @@
 .customer{
-    margin-top: 94px;
+    padding-top:94px;
+
 }
-.customer-logo{
+.customer__logo{
     transition: fill 250ms linear;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.customer-list{
+.customer__list{
+    display: flex;
+    justify-content: space-between;
+}
+.customer__item{
+    display: inline-block;
+    margin-bottom: 94px;
+    position: relative;
     width: 170px;
     height: 92px;
     border: 1px solid #AFB1B8;
