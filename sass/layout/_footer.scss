@@ -1,21 +1,8 @@
-.bottom-box .container {
-    
+.footer{
+    width: 1600px;
+    background-color:#2F303A;
     padding-top:60px;
     padding-bottom: 60px;
-    background-color:#2F303A;
-    display: flex;
-}
-.navigation-logo2{
-    font-family:var(--secondary-font);
-    font-weight: 500;
-    font-size: 26px;
-    line-height: 1.192;
-    letter-spacing: 0.03em;
-    color: white;
-
-    &>span {
-        color:var(--main-color);
-    }
 }
 
 .address{
@@ -26,15 +13,13 @@
     margin-top:20px;
     color: #FFffff;
 }
-
-.info-list-item{
-    font-size: 14px;
-    line-height: 1.714;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-}
-
 .join-us{
+    width: 206px;
+    border: 1px solid #2F303A;;
+    margin-left: 70px;
+    margin-top: 12px;
+}
+.join-us__title{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.142;
@@ -42,7 +27,7 @@
     text-transform: uppercase;
     color: #FFFFFF;
 }
-.join{
+.sign{
     margin-top: 48px;
     margin-left: 12px;
 }
