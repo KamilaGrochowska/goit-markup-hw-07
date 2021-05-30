@@ -372,41 +372,41 @@
 </footer>
 <div class="backdrop is-hidden" data-modal>
     <div class="modal">
-        <button type="button" class="close-btn" data-modal-close>
+        <button type="button" class="modal__close-btn" data-modal-close>
         <svg width="11px" height="11px">
             <use href="images.other/symbol-defs.svg#icon-ex"></use>
         </svg>
         </button>
-        <form method="post" class="modal-form">
-            <p class="modal-form-title">Zostaw swoje dane w formularzu poniżej
+        <form method="post" class="modal__form">
+            <p class="modal__title">Zostaw swoje dane w formularzu poniżej
             </p>
-            <label for="name" class="modal-label">Imię</label>
-            <div class="modal-icon-wrapper">
-                <input type="text" name="name" class="modal-input">
-                <svg class="modal-icon">
+            <label for="name" class="modal__label">Imię</label>
+            <div class="modal__icon--wrapper">
+                <input type="text" name="name" class="modal__input">
+                <svg class="modal__icon">
                     <use href="images.other/formularze.svg#icon-person-black-18dp-1"></use>
                 </svg>
             </div>
-            <label for="telefon" class="modal-label">Telefon</label>
-            <div class="modal-icon-wrapper">
-                <input type="tel" name="telefon" class="modal-input">
-                <svg class="modal-icon">
+            <label for="telefon" class="modal__label">Telefon</label>
+            <div class="modal__icon--wrapper">
+                <input type="tel" name="telefon" class="modal__input">
+                <svg class="modal__icon">
                     <use href="images.other/formularze.svg#icon-phone-black-18dp-1"></use>
                 </svg>
             </div>
-            <label for="email" class="modal-label">Email</label>
-            <div class="modal-icon-wrapper">
-                <input type="mail" name="email" class="modal-input">  
-                <svg class="modal-icon">
+            <label for="email" class="modal__label">Email</label>
+            <div class="modal__icon--wrapper">
+                <input type="mail" name="email" class="modal__input">  
+                <svg class="modal__icon">
                     <use href="images.other/formularze.svg#icon-email-black-18dp-1"></use>
                 </svg>
             </div>                     
-            <label for="komentarz" class="modal-label">Komentarz</label>           
-            <textarea id="content" name="komentarz" class="modal-textarea" placeholder="Wprowadź tekst">
+            <label for="komentarz" class="modal__label">Komentarz</label>           
+            <textarea id="content" name="komentarz" class="modal__textarea" placeholder="Wprowadź tekst">
             </textarea>
-            <div class="modal-checkbox-wrapper">
-                <div class="modal-disclaimer-wrapper">
-                    <input type="checkbox" class="modal-checkbox visually-hidden" id="checkbox" name="policy">
+            <div class="modal__checkbox--wrapper">
+                <div class="modal__disclaimer--wrapper">
+                    <input type="checkbox" class="modal__checkbox visually-hidden" id="checkbox" name="policy">
                     <label for="checkbox" class="policy-label">Oświadczam iż akceptuję <a href="#" class="modal-policy-link">Regulamin</a> i <a href="#" class="modal-policy-link">Politykę Prywatności</a>.</label>
                 </div>
                 <button class="modal-btn" type="submit">Wyślij</button>
