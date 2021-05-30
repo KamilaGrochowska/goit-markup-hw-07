@@ -1,9 +1,9 @@
 
-.main-buttons{
+.buttons{
     display: flex;
     justify-content: center;
 }
-.main-buttons2{
+.buttons__item{
     display: inline-block;
     margin-top: 94px;
     margin-bottom:56px;
@@ -11,10 +11,10 @@
     transition: color 250ms linear;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.main-list{
+.blocks{
     margin-bottom: 94px;
 }
-.main-list-item{
+.blocks__item{
     display: inline-block;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
@@ -33,7 +33,7 @@
     }
 }
 
-.main-list-item-title{
+.blocks__title{
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -44,7 +44,7 @@
     color: var(--secondary-color);
 }
 
-.main-list-item-category{
+.blocks__category{
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.03em;
@@ -57,16 +57,10 @@
     position: relative;
     overflow: hidden;
 
-    &:hover{
+    &:hover .overlay {
       transform: translatex(0);
     }
-
-    // &:hover .overlay {
-    //   transform: translatex(0);
-    // }
   }
-  
- 
   
   .overlay {
     position: absolute;
@@ -90,7 +84,7 @@
     }
   }
 
-  .line2::after {
+  .menu__item--line_portfolio::after {
     content: "";
     display: flex;
     height: 4px;
